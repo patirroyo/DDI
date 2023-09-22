@@ -9,27 +9,24 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
+        .container {
+            background-color: yellow;
+            color: black;
+            font-size: 10px;
+            width: 600px;
+        }
         .red {
-            color: white;
             background-color: red;
             height: 150px;
         }
 
         .green {
-            color: white;
             background-color: green;
             height: 150px;
         }
 
         .blue {
-            color: white;
             background-color: blue;
-            height: 150px;
-        }
-
-        .yellow {
-            color: white;
-            background-color: yellow;
             height: 150px;
         }
     </style>
@@ -38,14 +35,25 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 red"></div>
+            <div class="col-12 red">
+                A
+            </div>
         </div>
-        <div class="row">
-            <div class="col-9 blue"></div>
-            <div class="col-3 yellow"></div>
-            <div class="col-3 red"></div>
-            <div class="col-3 blue"></div>
-            <div class="col-3 green"></div>
-            <div class="col-3 yellow"></div>
+        <div class="row yellow">
+            <div class="col-9 order-0 blue">
+                B
+            </div>
+            <div class="col-3 order-2 red">
+                C
+            </div>
+            <div class="col-3 order-3 blue">
+                D
+            </div>
+            <div class="col-3 order-4 green">
+                E
+            </div>
+            <div class="col-3 order-1">
+                F
+            </div>
         </div>
     </div>
