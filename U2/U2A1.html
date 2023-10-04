@@ -1,57 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<!-- Required meta tags always come first -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<!-- Bootstrap CSS v5.3.2 -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 	<style>
-		.red
-		{
+		.red {
 			color: white;
 			background-color: red;
 		}
-		
-		.green
-		{
+
+		.green {
 			color: white;
 			background-color: green;
 		}
-		
-		.blue
-		{
+
+		.blue {
 			color: white;
 			background-color: blue;
 		}
+
+		.img-header {
+			height: 40px;
+			width: 40px;
+		}
+		.img-body {
+			height: 60px;
+			width: 60px;
+		}
 	</style>
 </head>
+
 <body>
-    
+
 	<div class="container">
-        <h1>U2A1 - Bootstrap 4 Cards</h1>
-        <h6>Thanks to the new spacing utility classes there's a lot you can do</h6>
+		<h1>U2A1 - Bootstrap 4 Cards</h1>
+		<h6>Thanks to the new spacing utility classes there's a lot you can do</h6>
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			<div class="col-6">
 				<br />
-				
-				<div class="card" style="width: 25rem;">
-					<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE4IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTRmZTA1OGRkZmIgdGV4dCB7IGZpbGw6cmdiYSgyNTUsMjU1LDI1NSwuNzUpO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LWZhbWlseTpIZWx2ZXRpY2EsIG1vbm9zcGFjZTtmb250LXNpemU6MTZwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTRmZTA1OGRkZmIiPjxyZWN0IHdpZHRoPSIzMTgiIGhlaWdodD0iMTgwIiBmaWxsPSIjNzc3Ii8+PGc+PHRleHQgeD0iMTE4LjA4NTkzNzUiIHk9Ijk3LjIiPjMxOHgxODA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" class="card-img-top" alt="Card image" />
+				<div class="card">
+					<div class="header bg-primary ">
+						<img src="images/tree.png" class="bg-success img-header" alt="Card image" />
+						<img src="images/tree.png" class="bg-danger img-header" alt="Card image" />
+						<img src="images/tree.png" class="card-img-top img-header" alt="Card image" />
+					</div>
+					<div class="card-body">
+						<h4 class="card-title">Card</h4>
+						<p class="card-text">With supporting text below as a natural lead.in to additional content.</p>
+						<button type="button" class="btn btn-outline-secondary">Outline</button>
+					</div>
+				</div>
+				<br />
+				<div class="card">
+					
 					
 					<div class="card-body">
-						<h4 class="card-title">This is a title</h4>
-						<p class="card-text">Each merged squad salts the wild porter. Should the charmed church dodge a camera? The gown litters the rhyme. Another discrete elevator defects over the target.</p>
-						<a href="http://sonarsystems.co.uk" class="btn btn-success">Button</a>
+						<img src="images/tree.png" class="bg-success img-body" alt="Card image" />
+						<h4 class="card-title">Card</h4>
+						<p class="card-text">With supporting text below as a natural lead.in to additional content.</p>
+						<button type="button" class="btn btn-outline-secondary">Outline</button>
 					</div>
 				</div>
 			</div>
+			<div class="col-3">
+				<div class="card bg-dark text-white" >
+					<div class="card-body">
+						<img src="images/tree.png" class="img-body" alt="Card image" />
+						<p class="card-text">56 Likes</p>
+					</div>
+				</div>
+				<div class="card bg-success text-white" >
+					<div class="card-body">
+						<img src="images/tree.png" class="img-body" alt="Card image" />
+						<p class="card-text">56 Likes</p>
+					</div>
+				</div>
+				<div class="card bg-info text-white" >
+					<div class="card-body">
+						<img src="images/tree.png" class="img-body" alt="Card image" />
+						<p class="card-text">56 Likes</p>
+					</div>
+				</div>				
+			</div>
+			<div class="col-3">
+				<div class="card bg-primary text-white" >
+					<div class="card-body">
+						<img src="images/tree.png" class="img-body" alt="Card image" />
+						<p class="card-text">56 Likes</p>
+					</div>
+				</div>
+				<div class="card bg-danger text-white" >
+					<div class="card-body">
+						<img src="images/tree.png" class="img-body" alt="Card image" />
+						<p class="card-text">56 Likes</p>
+					</div>
+				</div>
+				<div class="card bg-warning text-white" >
+					<div class="card-body">
+						<img src="images/tree.png" class="img-body" alt="Card image" />
+						<p class="card-text">56 Likes</p>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
+	</div>
 	<!-- Bootstrap 5.3.2 popperjs y javascript-->
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+		integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+		crossorigin="anonymous"></script>
 
 </body>
+
 </html>
