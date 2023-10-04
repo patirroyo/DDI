@@ -11,18 +11,45 @@
     <style>
         .container {
             color: transparent;
-            font-size: 10px;
+            font-size: 15px;
         }
+
         .red {
             background-color: red;
         }
 
         .green {
-            background-color: green;
+            background-color: lime;
         }
 
         .blue {
             background-color: blue;
+        }
+
+        .pink {
+            background-color: fuchsia;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .tall {
+            height: 100px;
+        }
+
+        .short {
+            height: 15px;
+        }
+
+        div {
+            border: solid white 2px;
+        }
+
+        .row {
+            outline-style: solid;
+            outline-width: 1px;
+            outline-color: grey;
         }
     </style>
 </head>
@@ -35,6 +62,37 @@
         <div class="row">
             <div class="col-12 col-sm-3 blue">2.1</div>
             <div class="col-12 col-sm-9 green">2.2</div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-12 green">1</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-3 red">2.1</div>
+            <div class="col-12 col-sm-9">
+                <div class="row">
+                    <div class="col-12 pink">2.2</div>
+                    <div class="col-12 col-md-6 orange tall">2.3</div>
+                    <div class="col-12 col-md-6 orange tall">2.4</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.5</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.6</div>
+                    <div class="col-6 col-sm-4 col-md-4 blue tall">2.7</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.8</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.9</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.10</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.11</div>
+                    <div class="col-6 col-sm-4 col-md-4 blue tall">2.12</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.13</div>
+                    <div class="col-6 col-sm-4 col-md-2 blue tall">2.14</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 green short">3</div>
         </div>
     </div>
 </body>
