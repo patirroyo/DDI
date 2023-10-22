@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Bootstrap CSS v5.3.2 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<Title>Bicicletas</Title>
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#CollapseNavbar">
+							&#9776;
+						</button>
+						<a class="navbar-brand" href="Index.html"><img src="images/logo.png" class="card-img-top" class="img-fluid" alt="Logo"></a>
+						<div class="collapse navbar-collapse" id="CollapseNavbar">
+							<ul class="navbar-nav col-7">
+								<li class="nav-item">
+									<a class="nav-link active" href="Index.html"><em class="bi bi-house-fill fs-4"></em> Home <span
+											class="sr-only"></span></a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="Bicicletas.html"><em class="bi bi-bicycle fs-4"></em> Bicicletas</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="SobreNosotros.html"><em class="bi bi-info-circle-fill fs-4"></em> Info</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="Contacto.html"><em class="bi bi-send-fill fs-4"></em> Contacto</a>
+								</li>
+							</ul>
+
+							<form class="d-flex col-lg-5">
+								<label for="buscador" class="mt-2 me-1">Buscador: </label>
+								<input class="form-control" type="text" name="buscador" id="buscador" placeholder="Bicicletas...">
+								<button class="btn btn-primary " type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<h4>Bicicletas</h4>
+			<div class="table-responsive ">
+				<table class="table align-middle table-bordered border-secondary text-center table-striped overflow-auto ">
+					<thead>
+						<tr class="text-start ">
+							<th scope="col" class="col-2">Imagen</th>
+							<th scope="col" class="col-6">Nombre</th>
+							<th scope="col" class="col-2">Precio</th>
+							<th scope="col" class="col-2"></th>
+						</tr>
+					</thead>
+					<tbody class="align-items-center">
+						<tr>
+							<td>
+								<img src="images/bicicleta-scott-addict-rc-ultimate-2023.png" class="img-fluid"
+									alt="Bicicleta Scott Addict RC Ultimate 2023">
+							</td>
+							<td>Bicicleta Scott Addict RC Ultimate 2023</td>
+							<td class="text-end">14.240 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu1" data-bs-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										info
+									</button>
+									
+									<div class="dropdown-menu" aria-labelledby="dropDownMenu1">
+										<a class="dropdown-item" href="#">Características</a>
+										<a class="dropdown-item" href="#">Complementos</a>
+										<a class="dropdown-item" href="#">Cositas</a>
+										<div class="dropdown-divider"></div>
+										<label for="compara1" class="m-1 btn btn-primary">Comparar
+											<input type="checkbox" autocomplete="off" id="compara1" name="compara1">
+										</label>
+									</div>
+								</div>
+							</td>
+
+						</tr>
+						<tr>
+							<td>
+								<img src="images/bicicleta-scott-aspect-920-2023.png" class="img-fluid"
+									alt="Bicicleta Scott Aspect 920 2023">
+							</td>
+							<td>Bicicleta Scott Aspect 920 2023</td>
+							<td class="text-end">1.120 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu2" data-bs-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										info
+									</button>
+									
+									<div class="dropdown-menu" aria-labelledby="dropDownMenu2">
+										<a class="dropdown-item" href="#">Características</a>
+										<a class="dropdown-item" href="#">Complementos</a>
+										<a class="dropdown-item" href="#">Cositas</a>
+										<div class="dropdown-divider"></div>
+										<label for="compara2" class="m-1 btn btn-primary">Comparar
+											<input type="checkbox" autocomplete="off" id="compara2" name="compara2">
+										</label>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="images/bicicleta-scott-addict-10-green-2023.png" class="img-fluid"
+									alt="Bicicleta Scott Addict 10 Greeen 2023">
+							</td>
+							<td>Bicicleta Scott Addict 10 Greeen 2023</td>
+							<td class="text-end">3.879 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu3" data-bs-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										info
+									</button>
+									
+									<div class="dropdown-menu" aria-labelledby="dropDownMenu3">
+										<a class="dropdown-item" href="#">Características</a>
+										<a class="dropdown-item" href="#">Complementos</a>
+										<a class="dropdown-item" href="#">Cositas</a>
+										<div class="dropdown-divider"></div>
+										<label for="compara3" class="m-1 btn btn-primary">Comparar
+											<input type="checkbox" autocomplete="off" id="compara3" name="compara3">
+										</label>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="images/bicicleta-scott-lumen-eride-900-2023.png" class="img-fluid"
+									alt="Bicicleta Scott Lumen eRide 900 2023">
+							</td>
+							<td>Bicicleta Scott Lumen eRide 900 2023</td>
+							<td class="text-end">7.999,20 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu4" data-bs-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										info
+									</button>
+									
+									<div class="dropdown-menu" aria-labelledby="dropDownMenu4">
+										<a class="dropdown-item" href="#">Características</a>
+										<a class="dropdown-item" href="#">Complementos</a>
+										<a class="dropdown-item" href="#">Cositas</a>
+										<div class="dropdown-divider"></div>
+										<label for="compara4" class="m-1 btn btn-primary">Comparar
+											<input type="checkbox" autocomplete="off" id="compara4" name="compara4">
+										</label>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="images/bicicleta-scott-spark-rc-world-cup-evo-tr-2024.png" class="img-fluid"
+									alt="Bicicleta Scott Spark RC World Cup Evo TR 2024">
+							</td>
+							<td>Bicicleta Scott Spark RC World Cup Evo TR 2024</td>
+							<td class="text-end">11.199,00 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu5" data-bs-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										info
+									</button>
+									
+									<div class="dropdown-menu" aria-labelledby="dropDownMenu5">
+										<a class="dropdown-item" href="#">Características</a>
+										<a class="dropdown-item" href="#">Complementos</a>
+										<a class="dropdown-item" href="#">Cositas</a>
+										<div class="dropdown-divider"></div>
+										<label for="compara5" class="m-1 btn btn-primary">Comparar
+											<input type="checkbox" autocomplete="off" id="compara5" name="compara5">
+										</label>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap 5.3.2 popperjs y javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
